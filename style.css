@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.msg-contain{
+  height: 10vh;
+}
+body {
+  background-color: #548687;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Ensures the body takes the full height of the viewport */
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+
+.game {
+  height: 60vmin;
+  width: 60vmin;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2.5vmin; /* Fixed the spacing issue */
+}
+
+.box {
+  height: 18vmin;
+  width: 18vmin;
+  border-radius: 1rem;
+  font-size: 8vmin;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fbea98; /* Optional: Makes boxes stand out */
+}
+/* .reset{
+  height: 8vmin;
+  width: 18vmin;
+  border-radius: 1rem;
+  border: none;
+  font-size: 3vmin;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: white;
+} */
+ #reset{
+  padding: 1rem;
+  font-size: 1.25rem;
+  border-radius: 1rem;
+  background-color: black;
+  color:azure;
+}
+.main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+#new-btn{
+  padding: 1rem;
+  font-size: 1.25rem;
+  border-radius: 1rem;
+  background-color: black;
+  color:azure;
+}
+#msg{
+  color:beige;
+  font-size: 12vmin;
+}
+.hide{
+   display: none;
+}
+.hide2{
+  display: none;
+}
